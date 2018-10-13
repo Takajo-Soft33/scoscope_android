@@ -15,6 +15,17 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
+        Button settingBt = findViewById(R.id.settingBt);
+        settingBt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, SettingActivity.class);
+                startActivity(intent);
+            }
+        });
+
+
+        //方向案内ボタン
         Button directionBt = findViewById(R.id.directionBt);
         directionBt.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -24,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        //施設情報ボタン
         Button viewBt = findViewById(R.id.viewOnFacilityBt);
         viewBt.setOnClickListener(new View.OnClickListener() {
             @Override
