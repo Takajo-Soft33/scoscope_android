@@ -9,6 +9,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@drawable/top_background"
         android:orientation="vertical">
 
         <Button
@@ -16,23 +17,32 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="right"
+            android:background="#d7352a2a"
+            android:padding="10dp"
             android:text="管理者設定"
+            android:textColor="@android:color/background_light"
             android:textSize="18sp" />
 
         <Button
             android:id="@+id/directionBt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="10dp"
             android:layout_weight="1"
+            android:background="#89352a2a"
             android:text="方向案内"
+            android:textColor="@android:color/background_light"
             android:textSize="30sp" />
 
         <Button
             android:id="@+id/viewOnFacilityBt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="10dp"
             android:layout_weight="1"
+            android:background="#89352a2a"
             android:text="視界内の施設情報"
+            android:textColor="@android:color/background_light"
             android:textSize="30sp" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
