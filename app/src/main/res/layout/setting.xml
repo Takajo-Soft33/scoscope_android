@@ -11,6 +11,16 @@
         android:background="@color/holoGreen"
         android:orientation="vertical">
 
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp"
+            android:includeFontPadding="false"
+            android:text="現在地の設定"
+            android:textSize="30sp" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -30,7 +40,7 @@
                 android:id="@+id/imageButton2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@android:color/transparent"
+                android:background="#1e352a2a"
                 app:srcCompat="@drawable/gps" />
 
         </LinearLayout>
@@ -40,6 +50,18 @@
             android:layout_height="match_parent"
             android:gravity="bottom|right"
             android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@color/themeColor50"
+                android:padding="10dp"
+                android:text="アプリケーションの終了"
+                android:textSize="20dp" />
 
             <Button
                 android:id="@+id/button3"
