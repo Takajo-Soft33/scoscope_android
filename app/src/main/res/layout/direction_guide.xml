@@ -57,18 +57,37 @@
                 android:id="@+id/searchList"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:layout_weight="5"></ListView>
+                android:layout_weight="5">
 
 
-            <Button
-                android:id="@+id/button"
-                android:layout_width="wrap_content"
+            </ListView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:layout_gravity="right"
                 android:layout_weight="1"
-                android:background="@color/themeColor50"
-                android:textSize="20dp"
-                android:text="終了" />
+                android:gravity="bottom|right"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/themeColor50"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="周辺マップ表示"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/themeColor50"
+                    android:text="終了"
+                    android:textSize="20dp" />
+            </LinearLayout>
         </LinearLayout>
 
     </LinearLayout>
