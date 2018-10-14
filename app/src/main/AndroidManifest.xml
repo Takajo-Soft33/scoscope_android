@@ -18,6 +18,7 @@
         <activity android:name=".DirectionGuide"/>
         <activity android:name=".ViewOnFacility"/>
         <activity android:name=".SettingActivity"/>
+        <activity android:name=".AroundMapActivity"/>
     </application>
 
 </manifest>

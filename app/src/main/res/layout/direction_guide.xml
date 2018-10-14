@@ -53,11 +53,19 @@
             android:weightSum="6"
             android:orientation="vertical">
 
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="5"
+                app:srcCompat="@drawable/arrow" />
+
             <ListView
                 android:id="@+id/searchList"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:layout_weight="5">
+                android:layout_weight="5"
+                android:visibility="gone">
 
 
             </ListView>
@@ -70,7 +78,7 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/button5"
+                    android:id="@+id/aroundBt1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="10dp"
