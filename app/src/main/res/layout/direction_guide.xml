@@ -33,7 +33,8 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:hint="目標物名"
-                android:inputType="textPersonName" />
+                android:inputType="textPersonName"
+                android:text="徳山高専" />
 
             <Button
                 android:id="@+id/findBt"
