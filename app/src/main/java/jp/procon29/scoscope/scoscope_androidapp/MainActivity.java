@@ -44,5 +44,9 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        
+        UsbReader usbReader = new UsbReader(this);
+        // to get hAngle, use usbReader.getHAngle()
+        // to get vAngle, use usbReader.getVAngle()
     }
 }
